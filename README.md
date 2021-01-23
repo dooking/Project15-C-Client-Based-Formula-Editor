@@ -1,53 +1,112 @@
-# 부스토랑
+# 부스토랑 
 
->수식 셰프는 웨일 브라우저 확장프로그램을 통해 웹 사이트 어느 곳에서나 수식편집기 서비스를 제공합니다!
-<p align="center"><img src="https://user-images.githubusercontent.com/60457112/99751593-dd35b180-2b25-11eb-886d-65bb2e2ecaf4.png"/></p>
+> 수식 셰프는 **크롬 확장프로그램**을 통해 **어느 웹 사이트**에서나 수식을 **편집**하고, **적용**할 수 있는 서비스를 제공합니다. **일회성**이 강한 기존 수식 편집기의 단점을 보완하여 **지속가능한 수식 편집 서비스**를 제공하는 것을 목표로 프로젝트를 진행하였습니다.
+<p align="center"><img src="https://user-images.githubusercontent.com/60457112/102003187-569c7a80-3d47-11eb-8412-3103461df502.gif" title="수식 셰프"/></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/javascript-ES6+-yellow?logo=javascript"/>
-  <img src="https://img.shields.io/badge/react-17.0.1-1cf?logo=react"/>
-  <img src="https://img.shields.io/badge/redux-4.0.5-purple?logo=redux"/>
+  <img src="https://img.shields.io/badge/typescript-v4.0.5-blue?logo=typescript"/>
   <img src="https://img.shields.io/badge/node.js-v15.2.1-green?logo=node.js"/>
   <img src="https://img.shields.io/badge/mysql-v5.7.32-blue?logo=mysql"/>
+</P>
+<p align="center">
+  <img src="https://img.shields.io/badge/react-17.0.1-1cf?logo=react"/>
+  <img src="https://img.shields.io/badge/redux-4.0.5-purple?logo=redux"/>
   <img src="https://img.shields.io/badge/emotion-11.0.0-pink?logo=emotion"/>
+  <img src="https://img.shields.io/badge/Webpack-v4.44.1-%238DD6F9?logo=webpack"/>
+  <img src="https://img.shields.io/badge/Babel-v7.12.1-%23F9DC3E?logo=Babel"/>
 </p>
 
-### 🏠 [HomePage URL]()
+#### 📩 [Download URL](https://store.whale.naver.com/detail/fjifenfnigndpihijgnnaoadjodljkla)
+- 🔗 [크롬 확장프로그램 다운](https://chrome.google.com/webstore/detail/%EC%88%98%EC%8B%9D-%EC%85%B0%ED%94%84/eibfmpikelkeedfiimelafoedmaglcna/related?hl=ko&authuser=0)
+- 🐳 [웨일 확장프로그램 다운](https://store.whale.naver.com/detail/fjifenfnigndpihijgnnaoadjodljkla)  
 
-### 📷 [프로젝트 실행 화면]()
+#### ❓ [수식 셰프 사용법](https://github.com/boostcamp-2020/Project15-C-Client-Based-Formula-Editor/wiki/%EB%8F%84%EC%9B%80%EB%A7%90)
 
-### 📚 [Wiki 보러가기](https://github.com/boostcamp-2020/Project15-C-Client-Based-Formula-Editor/wiki)
+#### ❗ [우리팀의 기술 특장점](https://github.com/boostcamp-2020/Project15-C-Client-Based-Formula-Editor/wiki/%EC%88%98%EC%8B%9D%EC%85%B0%ED%94%84-%EA%B8%B0%EC%88%A0-%ED%8A%B9%EC%9E%A5%EC%A0%90)
 
-## 📌 프로젝트 소개
+#### 📚 [Wiki 보러가기](https://github.com/boostcamp-2020/Project15-C-Client-Based-Formula-Editor/wiki)
 
-### [간단한 다운로드를 통해 수식 셰프를 경험해보세요!](https://store.whale.naver.com/search/%EC%88%98%EC%8B%9D%20%EC%85%B0%ED%94%84)
-실시간으로 브라우저 위에서 수식을 입력하고, 그리며 화면에 적용할 수 있습니다.
+## 📺 [프로젝트 홍보 영상](https://www.youtube.com/watch?v=v7ierZX2fzQ&feature=youtu.be)
+> 사진을 클릭하면 유튜브 페이지로 이동합니다   
 
-## 📺 Demo Video
+<a href="https://www.youtube.com/watch?v=v7ierZX2fzQ&feature=youtu.be"><img src="https://user-images.githubusercontent.com/60457112/102709011-f9c23680-42e9-11eb-84ac-c5e4ff1bc501.png"/></a>
 
-## ⚒️ Tech Stack
+## ⚙️ 주요 기능
+
+### 1. 수식 편집 지원  
+- 적분, 삼각함수, 행렬 등의 **다양한 수식**을 지원
+- **키보드** 및 **GUI 입력** 지원
+<img src="https://user-images.githubusercontent.com/60457112/102458079-114db500-4087-11eb-8e32-e1a5d828039b.gif"/>
+
+---
+
+### 2. 수식 추천 기능 지원
+- 사용자 편리성 증진을 위해 **수식 추천 기능** 지원
+- '**@'** 입력 시, **수식 추천** 리스트 생성  
+<img src="https://user-images.githubusercontent.com/60457112/102458366-79040000-4087-11eb-9048-de2841928847.gif"/>
+
+---
+### 3. 수식 사전 제공
+- 사용 빈도가 높은 수식들로 구성된 **수식 템플릿** 지원
+- **주제별 필터 기능** 및 **검색 기능** 지원
+<img src="https://user-images.githubusercontent.com/60457112/102458354-76a1a600-4087-11eb-9df0-ba58dda5a939.gif"/>
+
+---
+
+### 4. 네이버 소셜 로그인 및 즐겨찾기 기능 지원
+- **네이버 소셜 로그인** 지원
+- 자주 사용하는 수식을 등록 후 **재사용**할 수 있는 **즐겨찾기** 기능 지원
+<img src="https://user-images.githubusercontent.com/60457112/102458359-77d2d300-4087-11eb-8493-d812ffc89435.gif"/>
+
+---
+
+### 5. 공학용 계산기 지원
+- 기본 사칙연산을 포함한 공학용 계산 지원
+<img src="https://user-images.githubusercontent.com/60457112/102458350-75707900-4087-11eb-87b6-f5db9f40195a.gif"/>
+
+---
+
+### 6. 최소화 모드 지원
+- 사용자 편리성 증진을 위해 **최소화 모드** 지원
+- 최소화 모드에서는 Latex 입력 및 이미지 저장, 텍스트 저장, 
+<img src="https://user-images.githubusercontent.com/60457112/102458364-786b6980-4087-11eb-8528-6a801c2300fc.gif"/>
+
+---
+
+### 7. 웹 에디터에 수식을 적용할 수 있는 클립보드 복사 기능 지원
+- 클립보드 복사 버튼 클릭 시, 웹 에디터 사이트에 Ctrl + v로 복사 가능
+- Notion, Naver Blog, Google Docs 등 다양한 사이트에 적용 가능
+<img src="https://user-images.githubusercontent.com/60457112/102458367-799c9680-4087-11eb-895d-514c7ed5aafa.gif"/>
+
+---
+
+## ⚒️ 기술 스택
+![1](https://user-images.githubusercontent.com/60457112/102003331-35d52480-3d49-11eb-8b28-a69653ca5e7b.jpg)
+#### 📘 Front-End : React, Typescript, Redux, Emotion, Webpack & Babel, Mathquill Library  
+#### 📗 Back-End : Express, Typescript, Mysql2, TypeORM, NCloud
 
 ## 🗂 Directory
 
 <details>
 <summary>server</summary>
   <div markdown="1">
-    
+
 ```
 🗃 Project Folder  
 📁server  
-├── app.js  
-├── 📁bin  
-│   └── www  
-├── 📁config  
-├── 📁models  
-├── 📁controllers  
-├── 📁services  
-├── 📁routes
-│   ├── 📁user
-│   └── 📁favorite
-└── 📁loaders
-└── 📁utils
+├── app.js
+├── 📁src  
+│   ├── 📁controllers 
+│   ├── 📁entity
+│   ├── 📁repository
+│   ├── 📁router
+│   │   ├── 📁user
+│   │   └── 📁favorite
+│   ├── 📁service
+│   ├── 📁types
+│   ├── 📁utils  
+│   └──📁views
 └── 📁__tests__  
 ```
 
@@ -57,29 +116,35 @@
 <details>
 <summary>client</summary>
   <div markdown="1">
-    
+
   ```
   📁client  
   ├── 📁public
+  │   ├── 📁image    
+  │   ├── background.js  
+  │   ├── content.css
+  │   ├── icon.png
+  │   ├── manifest.json
   │   └── index.html
   └── 📁src
       ├── App
       ├── 📁components  
       │   ├── index.tsx   
       │   ├── style.ts
-      │   └── (폴더명).ts
+      │   └── use(폴더명).ts
       ├── 📁contexts
       │   ├── index.ts   
       │   ├── 📁latex
       │   └── 📁user
+      ├── 📁hooks
       ├── 📁lib  
-      │   ├── 📁hooks
+      │   ├── 📁apis
       │   ├── 📁constants
-      │   ├── 📁utils
-      │   └── 📁apis
+      │   └── 📁utils
+      ├── 📁pages
       └── 📁__tests__  
   ```
-  
+
   </div>
 </details>
 
